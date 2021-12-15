@@ -1,0 +1,25 @@
+.card {
+    font-size: 1rem;
+    height: 50vh;
+    min-width: 200px;
+    margin: 15px;
+    box-shadow: 12px 12px 2px 1px rgba(170, 170, 170, 0.2);
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(117, 115, 115, 0.438);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-buttons .card-button {
+    margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+}

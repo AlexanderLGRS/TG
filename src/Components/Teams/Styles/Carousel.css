@@ -1,0 +1,7 @@
+.carousel {
+    padding: 30px;
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+    color: black;
+}

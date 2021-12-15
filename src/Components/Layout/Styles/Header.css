@@ -1,0 +1,12 @@
+.header {
+    height: 150px;
+    font-family: "Bangers", cursive;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
