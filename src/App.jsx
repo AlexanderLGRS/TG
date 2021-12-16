@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/leagues" element={<TeamsList />} />
+          <Route exact path="/TG" element={<Home />} />
+          <Route exact path="/TG/leagues" element={<TeamsList />} />
         </Routes>
       </Layout>
     </BrowserRouter>
