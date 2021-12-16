@@ -1,0 +1,29 @@
+.button {
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+
+.bi-arrow-right-circle {
+    color: black;
+    opacity: 1;
+}
+
+.bi-arrow-right-circle-fill {
+    color: black;
+    position: absolute;
+    left: calc(50% - 40px);
+    opacity: 0;
+}
+
+.button:hover .bi-arrow-right-circle-fill {
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+.button:hover .bi-arrow-right-circle {
+    transition-duration: 1s;
+    opacity: 0;
+}

@@ -1,0 +1,54 @@
+.homeCard {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: #212529b9;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.cardTitle {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardText {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.homeCard:hover {
+    background-color: #212529;
+}
+
+.slide-left {
+    -webkit-animation: slide-left 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-left 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(100vw);
+        transform: translateX(100vw);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(100vw);
+        transform: translateX(100vw);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}

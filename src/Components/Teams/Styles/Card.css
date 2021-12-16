@@ -16,10 +16,5 @@
 .card-buttons {
     display: flex;
     justify-content: space-evenly;
-}
-
-.card-buttons .card-button {
     margin-bottom: 10px;
-    height: 60px;
-    width: 60px;
 }

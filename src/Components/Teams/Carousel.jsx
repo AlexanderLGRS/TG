@@ -4,8 +4,7 @@ import LeagueTitle from "./LeagueTitle";
 import './Styles/Carousel.css'
 
 export default function Carousel(props) {
-    const { data, name, flag, key } = props
-    console.log(data);
+    const { data, name, flag } = props
     return (
         <React.Fragment>
             <LeagueTitle title={name} />
