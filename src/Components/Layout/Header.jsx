@@ -7,7 +7,9 @@ export default function Header(props) {
         <React.Fragment>
             <nav className="navbar header navbar-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">Team Generator</a>
+                    <Link className="navbar-brand" to="/TG">
+                        TeamGenerator
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -17,7 +19,6 @@ export default function Header(props) {
                                 <Link to="/TG">
                                     Home
                                 </Link>
-
                             </li>
                             <li className="nav-item">
                                 <Link to="/TG/leagues">

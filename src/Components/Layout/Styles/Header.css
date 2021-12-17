@@ -10,3 +10,8 @@
 .navbar-brand {
     margin-left: 50px;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
