@@ -26,7 +26,12 @@ export default function Header(props) {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/about">
+                                <Link to="/TG/register">
+                                    Nosotros
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/TG/about">
                                     Nosotros
                                 </Link>
                             </li>
