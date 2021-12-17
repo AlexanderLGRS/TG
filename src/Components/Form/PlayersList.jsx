@@ -1,10 +1,9 @@
 import React from "react";
-import Form from "../Components/Form/Form";
 
-export default function Register(){
+export default function PlayersList(props){
     return(
         <React.Fragment>
-            <Form/>
+            
         </React.Fragment>
     )
 }

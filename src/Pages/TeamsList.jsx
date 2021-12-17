@@ -122,7 +122,6 @@ const leagues = [
 ]
 
 export default function TeamsList(props) {
-    console.log(sessionStorage);
     return (
         <React.Fragment>
             {leagues.map((league) => (

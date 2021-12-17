@@ -1,0 +1,22 @@
+form {
+    width: 80vw;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+input {
+    text-align: center;
+}
+
+.btn {
+    width: 50%;
+    margin: auto;
+}

@@ -17,17 +17,17 @@ export default function Header(props) {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link to="/TG">
-                                    Home
+                                    Inicio
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/TG/leagues">
-                                    Leagues
+                                    Ligas
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/about">
-                                    About Us
+                                    Nosotros
                                 </Link>
                             </li>
                         </ul>
