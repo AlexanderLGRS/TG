@@ -1,6 +1,6 @@
 .card {
-    font-size: 1rem;
-    height: 50vh;
+    font-size: 20px;
+    height: auto;
     min-width: 200px;
     margin: 15px;
     box-shadow: 12px 12px 2px 1px rgba(170, 170, 170, 0.2);

@@ -1,5 +1,6 @@
 import React from "react";
 import './Styles/Header.css'
+import { Link } from "react-router-dom";
 
 export default function Header(props) {
     return (
@@ -13,15 +14,21 @@ export default function Header(props) {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/TG/leagues">Leagues</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/">About Us</a>
-                            </li>
+                                <Link to="/TG">
+                                    Home
+                                </Link>
 
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/TG/leagues">
+                                    Leagues
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/about">
+                                    About Us
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
