@@ -15,7 +15,8 @@ function App() {
         <Routes>
           <Route exact path="/TG" element={<Home />} />
           <Route exact path="/TG/leagues" element={<TeamsList />} />
-          <Route exact path="/TG/register" element={<Register />} />
+          <Route exact path="/TG/generator" element={<Register />} />
+          {/* <Route exact path="/TG/about" element={<r />} /> */}
         </Routes>
       </Layout>
     </BrowserRouter>

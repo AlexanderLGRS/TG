@@ -1,4 +1,9 @@
 .button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
     text-decoration: none;
     border-radius: 100%;
     padding: 0;
@@ -7,23 +12,17 @@
 }
 
 .bi-arrow-right-circle {
+    width: 40px;
+    height: 40px;
     color: black;
     opacity: 1;
 }
 
 .bi-arrow-right-circle-fill {
+    width: 50px;
+    height: 50px;
     color: black;
     position: absolute;
-    left: calc(50% - 40px);
-    opacity: 0;
-}
-
-.button:hover .bi-arrow-right-circle-fill {
-    transition-duration: 1s;
-    opacity: 1;
-}
-
-.button:hover .bi-arrow-right-circle {
-    transition-duration: 1s;
+    left: calc(50% - 25px);
     opacity: 0;
 }

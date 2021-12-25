@@ -19,7 +19,7 @@ export default function Home(props) {
                     <p className="cardTitle">Equipos aleatorios en minutos</p>
                     <p className="cardText">Crea la cantidad de equipos aleatorios que quieras con la misma cantidad de jugadores como un suanfonson! </p>
                 </HomeCard>
-                <Button />
+                <Button to='leagues'/>
             </div>
         </React.Fragment>
     )

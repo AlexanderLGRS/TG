@@ -8,7 +8,7 @@ export default function Header(props) {
             <nav className="navbar header navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/TG">
-                        TeamGenerator
+                        Team Generator
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -26,8 +26,8 @@ export default function Header(props) {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/TG/register">
-                                    Nosotros
+                                <Link to="/TG/generator">
+                                    Generar
                                 </Link>
                             </li>
                             <li className="nav-item">

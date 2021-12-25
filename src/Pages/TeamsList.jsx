@@ -3,6 +3,7 @@ import Carousel from '../Components/Teams/Carousel';
 import spainFlag from '../assets/Spain.jpg'
 import germanyFlag from '../assets/Germany.jpg'
 import englandFlag from '../assets/England.jpg'
+import Button from "../Components/Home/Button";
 
 const leagues = [
     {
@@ -127,6 +128,7 @@ export default function TeamsList(props) {
             {leagues.map((league) => (
                 <Carousel key={league.key} flag={league.flag} name={league.name} data={league.teams} />
             ))}
+            <Button to='generator'/>
         </React.Fragment>
     )
 }

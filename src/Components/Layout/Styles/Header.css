@@ -8,10 +8,25 @@
 }
 
 .navbar-brand {
-    margin-left: 50px;
+    margin-left: 10px;
+    letter-spacing: 5px;
 }
 
-a {
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    margin-top: 20px;
+}
+
+.nav-item a {
+    color: rgba(255, 0, 0, 0.5);
     text-decoration: none;
-    color: #fff;
+}
+
+.nav-item a:hover {
+    color: rgba(255, 0, 0);
 }
