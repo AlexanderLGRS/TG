@@ -122,7 +122,7 @@ const leagues = [
     }
 ]
 
-export default function TeamsList(props) {
+export default function Leagues(props) {
     return (
         <React.Fragment>
             {leagues.map((league) => (

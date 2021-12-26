@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Form from "../Components/Form/Form";
 import PlayersList from "../Components/Form/PlayersList";
 
-const DEFAULT_PLAYERS = []
+let playersRegistered = []
 export default function Register() {
-    const [playersList, setPlayersList] = useState(DEFAULT_PLAYERS)
+    const [playersList, setPlayersList] = useState(playersRegistered)
     const savePlayersHandler = (enteredPlayers) => {
-        console.log('Aca llegamos');
-        setPlayersList(enteredPlayers)
+        playersRegistered=(enteredPlayers)
+        setPlayersList(playersRegistered)
         console.log(enteredPlayers);
     }
     return (

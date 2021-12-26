@@ -4,6 +4,7 @@ import HomeCard from '../Components/Home/HomeCard'
 import './Styles/Home.css'
 
 export default function Home(props) {
+    sessionStorage.clear()
     return (
         <React.Fragment>
             <div className="home">

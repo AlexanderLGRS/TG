@@ -11,7 +11,7 @@
     padding: 20px 0;
 }
 
-li {
-    list-style: disclosure-closed;
+.playersList li {
+    list-style-type: decimal;
     font-size: 20px;
 }
